@@ -20,3 +20,4 @@ typedef unsigned long long u64;
 typedef unsigned char ERR_Status;
 #define OK 	1
 #define NOK 0
+#define NOT_OK 0
