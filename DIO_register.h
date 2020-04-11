@@ -4,6 +4,9 @@
 /*Version : V01											*/
 /********************************************************/
 
+#ifndef _DIO_REGISTER_H_
+#define _DIO_REGISTER_H_
+
 #define PORTA_BASE_ADDRESS 0x40010800
 
 #define PORTA_CRL 	*((u32*)(PORTA_BASE_ADDRESS + 0x00))
@@ -36,3 +39,4 @@
 #define PORTC_BRR 	*((u32*)(PORTC_BASE_ADDRESS + 0x14))
 #define PORTC_LCKR 	*((u32*)(PORTC_BASE_ADDRESS + 0x18))
 
+#endif
